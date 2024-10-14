@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: darkgreen;
+    color: rgb(2, 2, 2);
+} 
+.containtopo{
+  width: 900px; 
+  height: 200px;
+  background-image: url(imagem\ do\ cabeçalho.jpg);
+  margin: 0 auto ;
+}
+
+
+.imagemlogo{
+    position: relative;
+    top: 20px;
+    left: 40px;
+
+}
+
+
+.menu{
+width: 500px;
+height: 40px;
+background-image: url(imagem\ vermelha\ de\ fundo.jpg);
+position: relative;
+top: -80px;
+left: 325px;
+border: 2px solid #ffff;
+border-radius: 20px 0px 20px 0px;
+text-align: center;
+line-height: 40px;
+}
+ 
+.menu1,
+.menu2
+,.menu3{
+font-family: Arial;
+color:#ffffff;
+font-weight: bold;
+font-size: 20px;
+text-decoration: none;
+
+}
+
+.menu1,.menu2,.menu3:hover{
+    text-decoration: underline;
+}
+
+
+
+.titulo20{
+    width: 900px;
+    height: 100px;
+    background-color:#550000;
+    text-align: center;
+    line-height: 100px ;
+    margin: 0 auto;
+}
+
+.titulofilme{
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.titulo2{
+    width: 900px;
+    height: 300px;
+    background-color: #ffff;
+    margin: 0 auto;
+}
+
+.imagem1{
+   border: 5px solid #ff0000; 
+   float: left;
+   position: relative;
+   top: 50px;
+   left: 50px;
+}
+
+.titulofilme1{
+position: relative;
+left: 90px;
+top: 50px;
+}
+
+.filmedescriçao{
+    width: 700px;
+    position: relative;
+    top: 50px;
+    left: 90px;
+}
+
+.titulo3{
+    width: 900px;
+    height: 300px;
+    background-color: #555555;
+    margin: 0 auto;
+
+}
+
+.imagem2{
+    border: 5px solid #ffff00; 
+   float: right;
+   position: relative;
+   top: 50px;
+   left: 50px;
+}
+
+.titulofilme2{
+position: relative;
+color: #ffffff;
+top:50px ;
+left: 40px;
+margin:0 ;
+}
+
+
+.filmedescriçao2{
+    width: 600px;
+    position: relative;
+    top: 50px;
+    left: 40px;
+    color: #ffffff;
+}
+   
+.containerpremios{
+    width: 900px;
+    height: 400px;
+    background-image: url(selva\ de\ fundo.jpg);
+    margin: 0 auto;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+
+.premiotitulo{
+position: relative;
+top: 50px;
+margin: 0 auto;
+color: #ffffff;
+}
+
+
+.tabelapremios{
+    position: relative;
+    top: 55px;
+    margin: 0 auto;
+    width: 400px;
+    height: 200px;
+
+
+}
+
+.tdpremio{
+    background-color: #333333;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.trpremio{
+    text-align: center;
+}
+.trpremio:nth-child(even){
+    background-color: #999999;
+}
+.trpremio:nth-child(odd){
+    background-color: #dddd00;
+}
+
+
+.rodape{
+width: 900px;
+height: 50px;
+background-image: url(imagem\ do\ cabeçalho.jpg);
+text-align: center;
+margin: 0 auto;
+font-weight: bold;
+}
+
+.rodapetexto{
+    color: #ffffff;
+    font-size: 14px;
+    top: 20px;
+    position: relative;
+
+}
